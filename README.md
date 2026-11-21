@@ -1,18 +1,17 @@
 # Adin Segall
 
-ML engineer for music & audio. MSc in Sound & Music Computing at Queen Mary University of London's Centre for Digital Music (Distinction). I DJ, so most of my projects start as problems I actually have.
+I build ML systems for music and audio. Just finished my MSc in Sound & Music Computing at Queen Mary's Centre for Digital Music in London. I also DJ, so most of these projects started as problems I actually had.
 
-**What I've built:**
+The main one is [dj-playlist-generation](https://github.com/adinsegall/dj-playlist-generation), my dissertation and an [ISMIR 2026 late-breaking demo](https://ismir2026program.ismir.net/lbd_663.html). You type something like "warm minimal house to open, peak-time techno to close" and it builds a playlist from your own Rekordbox library. I ran a blinded study with 12 DJs comparing a heuristic ranker against a learned retriever, and the honest answer is that they tied, for interesting reasons. The full code is private for now, but the eval harness, thesis, and demo video are in the repo, and I'm happy to walk anyone through the rest.
 
-- [dj-playlist-generation](https://github.com/adinsegall/dj-playlist-generation): my dissertation, presented as an [ISMIR 2026 Late-Breaking Demo](https://ismir2026program.ismir.net/lbd_663.html). Natural language → sequenced DJ sets from your own Rekordbox library. Blinded 12-DJ A/B study of heuristic vs. learned-embedding retrieval, LLM enrichment at 97.2% schema-validation, honest null results. *(code private, ask me)*
-- [riffusion-lora](https://github.com/adinsegall/riffusion-lora): LoRA fine-tuning of Riffusion for EDM sample generation, with a UNet ablation study. **[Listen to the outputs →](https://adinsegall.github.io/riffusion-lora/)**
-- [dl4am-cvae-bilstm](https://github.com/adinsegall/dl4am-cvae-bilstm): loop-aware audio generation, with a BiLSTM loop-candidacy classifier (0.977 val F1) steering a convolutional VAE's latent space
-- [audio-fingerprinting](https://github.com/adinsegall/audio-fingerprinting): a Shazam-style identifier from scratch. Constellation maps and combinatorial hashing, 79.3% top-1 on noisy phone recordings
-- [music-artist-ontology](https://github.com/adinsegall/music-artist-ontology): OWL ontology fusing Wikidata and DBpedia, with SPARQL fusion queries and SWRL reasoning
-- [WakeTag](https://github.com/adinsegall/WakeTag): an iOS alarm clock you can only silence by scanning an NFC tag, with any Apple Music song as the wake-up sound
+Other projects:
 
-Earlier, at the University of Miami, I built JUCE/C++ audio plugins: [A-Simple-Synth](https://github.com/adinsegall/A-Simple-Synth) and [Channel-Strip-GPT](https://github.com/adinsegall/Channel-Strip-GPT).
+- [riffusion-lora](https://github.com/adinsegall/riffusion-lora) fine-tunes Riffusion to generate EDM samples. There's an [audio gallery](https://adinsegall.github.io/riffusion-lora/) if you want to hear what it makes.
+- [dl4am-cvae-bilstm](https://github.com/adinsegall/dl4am-cvae-bilstm) generates loopable audio by steering a VAE's latent space with a loop classifier.
+- [audio-fingerprinting](https://github.com/adinsegall/audio-fingerprinting) is a Shazam clone built from scratch with numpy and librosa.
+- [music-artist-ontology](https://github.com/adinsegall/music-artist-ontology) is a knowledge graph of music artists built from Wikidata and DBpedia.
+- [WakeTag](https://github.com/adinsegall/WakeTag) is an iOS alarm clock that won't shut up until you scan an NFC tag in the other room.
 
-`Python` · `PyTorch` · `LLM pipelines` · `librosa / DSP` · `Swift / SwiftUI` · `JUCE / C++`
+Before the MSc I was at the University of Miami, where I started building audio plugins in JUCE/C++ ([A-Simple-Synth](https://github.com/adinsegall/A-Simple-Synth), [Channel-Strip-GPT](https://github.com/adinsegall/Channel-Strip-GPT)).
 
-📫 segalladin@gmail.com
+Reach me at segalladin@gmail.com.
