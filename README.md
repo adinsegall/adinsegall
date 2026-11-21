@@ -11,6 +11,7 @@ Other projects:
 - [audio-fingerprinting](https://github.com/adinsegall/audio-fingerprinting) is a Shazam clone built from scratch with numpy and librosa.
 - [music-artist-ontology](https://github.com/adinsegall/music-artist-ontology) is a knowledge graph of music artists built from Wikidata and DBpedia.
 - [WakeTag](https://github.com/adinsegall/WakeTag) is an iOS alarm clock that won't shut up until you scan an NFC tag in the other room.
+- [pyspark-case-studies](https://github.com/adinsegall/pyspark-case-studies) is the data-engineering side: Spark jobs on a Hadoop/S3 cluster covering NYC taxi analysis, Ethereum transactions, GraphFrames PageRank, and Structured Streaming with watermarking.
 
 Before the MSc I was at the University of Miami, where I started building audio plugins in JUCE/C++ ([A-Simple-Synth](https://github.com/adinsegall/A-Simple-Synth), [Channel-Strip-GPT](https://github.com/adinsegall/Channel-Strip-GPT)).
 
